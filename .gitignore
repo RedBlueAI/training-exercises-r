@@ -1,0 +1,37 @@
+# R specific
+.Rhistory
+.Rdata
+.RDataTmp
+.Ruserdata
+*.Rproj.user/
+
+# renv
+renv/library/
+renv/local/
+renv/cellar/
+renv/lock/
+renv/python/
+renv/staging/
+
+# Output files (regenerable)
+output/figures/*.png
+output/figures/*.pdf
+output/tables/*.csv
+*.html
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+*.swp
+*.swo
+
+# Data (keep raw, ignore large processed files)
+data/processed/*.rds
+data/processed/*.csv
+!data/processed/.gitkeep
+
+# Environment
+.Renviron

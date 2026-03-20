@@ -1,0 +1,61 @@
+---
+title: "Heart Disease Prediction - Model Report"
+author: "Data Science Team"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    theme: flatly
+    code_folding: show
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE,
+  message = FALSE,
+  warning = FALSE,
+  fig.width = 8,
+  fig.height = 6
+)
+
+library(tidyverse)
+library(tidymodels)
+library(here)
+```
+
+# Objective
+
+Predict heart disease presence using patient clinical data. Compare logistic regression and random forest models.
+
+# Data Preparation
+
+```{r data-prep}
+# TODO: Source preprocessing pipeline
+# source(here("R", "01_load_data.R"))
+# source(here("R", "03_preprocessing.R"))
+```
+
+# Model Training
+
+```{r models}
+# TODO: Source modeling pipeline
+# source(here("R", "04_modeling.R"))
+```
+
+# Validation Results
+
+```{r validation}
+# TODO: Source validation results
+# source(here("R", "05_validation.R"))
+```
+
+# Conclusions
+
+*[To be completed during exercises]*
+
+# Reproducibility
+
+```{r session-info}
+sessionInfo()
+```

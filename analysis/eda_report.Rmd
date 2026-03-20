@@ -1,0 +1,67 @@
+---
+title: "Heart Disease Dataset - Exploratory Data Analysis"
+author: "Data Science Team"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    theme: flatly
+    code_folding: show
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE,
+  message = FALSE,
+  warning = FALSE,
+  fig.width = 8,
+  fig.height = 5
+)
+
+library(tidyverse)
+library(here)
+library(skimr)
+```
+
+# Overview
+
+This report presents an exploratory data analysis of the heart disease dataset containing clinical measurements from 300 patients.
+
+# Data Loading
+
+```{r load-data}
+source(here("R", "01_load_data.R"))
+```
+
+# Data Quality
+
+```{r data-quality}
+skim(heart)
+```
+
+# Distribution Analysis
+
+```{r distributions}
+# TODO: Add distribution plots for key variables
+# This section is intentionally left incomplete for Session 5 exercises
+```
+
+# Bivariate Analysis
+
+```{r bivariate}
+# TODO: Add relationship analysis with heart_disease target
+# This section is intentionally left incomplete for Session 5 exercises
+```
+
+# Key Findings
+
+1. *[To be completed during exercises]*
+2. *[To be completed during exercises]*
+3. *[To be completed during exercises]*
+
+# Session Info
+
+```{r session-info}
+sessionInfo()
+```
