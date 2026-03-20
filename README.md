@@ -1,3 +1,11 @@
+![Version](https://img.shields.io/badge/version-1.0.0-blue)
+![R](https://img.shields.io/badge/R-%3E%3D%204.3.0-276DC3?logo=r&logoColor=white)
+![RStudio](https://img.shields.io/badge/RStudio-%3E%3D%202024.04-75AADB?logo=rstudio&logoColor=white)
+![tidyverse](https://img.shields.io/badge/tidyverse-2.0-1A162D?logo=tidyverse&logoColor=white)
+![tidymodels](https://img.shields.io/badge/tidymodels-1.2-1A162D)
+![Claude Code](https://img.shields.io/badge/Claude_Code-CLI-cc785c?logo=anthropic&logoColor=white)
+![License](https://img.shields.io/badge/license-Educational-green)
+
 # Heart Disease Prediction — AI Training Exercises (R Edition)
 
 Hands-on training repository for the **AI Tool Assistance System** curriculum — R Data Science track.
